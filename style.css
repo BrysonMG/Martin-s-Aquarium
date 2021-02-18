@@ -1,0 +1,68 @@
+body {
+    background-color: darkcyan;
+}
+
+h1 {
+    border: white 2px solid;
+    border-radius: 25px;
+    background-color: cornflowerblue;
+    text-align: center;
+    
+}
+
+main, aside, .container {
+    display: flex;
+}
+
+main {
+    border: solid white 2px;
+    border-radius: 25px;
+    flex-direction: column;
+    width: 75%;
+    align-items: center;
+    justify-content: space-evenly;
+    padding-top: 2em;
+    background-color: cornflowerblue;
+    
+}
+
+.tankCare {
+    background-color: cornflowerblue;
+    width: 20%;
+    height: auto;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 25px;
+    border: solid white 2px;
+}
+
+.fish img {
+    max-height: 150px;
+}
+
+.tankCare article, .fish article, .locations article{
+    margin-bottom: 5em;
+    background-color: white;
+    border: black solid 2px;
+    border-radius: 25px;
+    padding: 5px;
+    width: 100%;
+    text-align: center;
+}
+
+.fish, .locations {
+    width: 85%;
+    align-content: center;
+}
+
+.locations {
+    justify-content: center;
+}
+
+.container {
+    justify-content: space-around;
+}
+.tankCare article {
+    width: 85% ;
+}
+
