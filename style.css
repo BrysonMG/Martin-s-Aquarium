@@ -57,6 +57,8 @@ main {
 
 .locations {
     justify-content: center;
+    flex-wrap: nowrap;
+    flex-direction: row;
 }
 
 .container {
@@ -66,3 +68,16 @@ main {
     width: 85% ;
 }
 
+.fish article {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+img {
+    border-radius: 25px;
+}
+
+.locations img {
+    max-height: 200px;
+}
