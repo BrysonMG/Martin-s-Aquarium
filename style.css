@@ -29,7 +29,7 @@ main {
 .tankCare {
     background-color: cornflowerblue;
     width: 20%;
-    height: auto;
+    height: min-content;
     flex-direction: column;
     align-items: center;
     border-radius: 25px;
